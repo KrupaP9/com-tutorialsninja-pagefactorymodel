@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Smoke Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Smoke Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 20:31:39 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59536 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tutorialsninja.testsuite.desktops.DesktopsTest.verifyProductAddedToShoppingCartSuccessFully()'><b>verifyProductAddedToShoppingCartSuccessFully</b><br>Test class: com.tutorialsninja.testsuite.desktops.DesktopsTest<br/>
+<a href="#Output-1744713739" onClick='toggleBox("Output-1744713739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1744713739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1744713739">
+Hovering and Clicking on desktop [[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> link text: Desktops]<br/>
+select A to Zfrom[[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> id: input-sort]<br/>
+Clicking on product HPLP3065 [[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> xpath: //a[contains(text(),'HP LP3065')]]<br/>
+Getting HPLP3065 text [[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> xpath: //h1[contains(text(),'HP LP3065')]]<br/>
+clearing current quantity and adding the specified amount<br/>
+Clicking on add to cart Button [[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> xpath: //button[@id='button-cart']]<br/>
+Verifying if success message contains Success: You have added HP LP3065 to your shopping cart!<br/>
+Clicking on shopping cart [[ChromeDriver: chrome on WINDOWS (d2f989daffbbdcb687105d1b992056af)] -> xpath: //div[@class='alert alert-success alert-dismissible']/a[2]]<br/>
+Verifying if success message contains Shopping Cart<br/>
+Verifying if success message contains 2022-11-30<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Dec_13_20_32_10_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Dec_13_20_32_10_GMT_2022.jpg><img src=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyTue_Dec_13_20_32_10_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.tutorialsninja.testsuite.desktops.DesktopsTest@78186a70</td></tr>
+<tr>
+<td title='com.tutorialsninja.testsuite.laptopsandnotebooks.LaptopsAndNotebooksTest.verifyThatUserPlaceOrderSuccessfully()'><b>verifyThatUserPlaceOrderSuccessfully</b><br>Test class: com.tutorialsninja.testsuite.laptopsandnotebooks.LaptopsAndNotebooksTest<br/>
+<a href="#Output-1371397528" onClick='toggleBox("Output-1371397528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1371397528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1371397528">
+Hovering and Clicking on laptops and notebooks [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> link text: Laptops & Notebooks]<br/>
+selecting Price (High > Low)<br/>
+Clicking on macbook [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> link text: MacBook]<br/>
+Getting macbook text [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //h1[contains(text(),'MacBook')]]<br/>
+Clicking on add to cart Button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //button[@id='button-cart']]<br/>
+Verifying if success message contains Success: You have added MacBook to your shopping cart!<br/>
+Clicking on shopping cart [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //div[@class='alert alert-success alert-dismissible']/a[2]]<br/>
+Verifying if success message contains Shopping Cart<br/>
+Verifying if success message contains Success: You have added HP LP3065 to your shopping cart!<br/>
+Clicking on checkout Button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> css selector: a.btn.btn-primary]<br/>
+Getting checkout text [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //h1[contains(text(),'Checkout')]]<br/>
+Getting new customer text [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //h2[contains(text(),'New Customer')]]<br/>
+Clicking on radio button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //div[@id='checkout-checkout']//input[@value='guest']]<br/>
+Clicking on continue button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //input[@id='button-account']]<br/>
+Enter namePriyato first name field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-firstname]<br/>
+Enter namePatelto last name field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-lastname]<br/>
+Enter emailpriyapatel@gmail.comto email field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-email]<br/>
+Enter telephone45678645786to field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-telephone]<br/>
+Enter address10 XYZ Roadto field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-address-1]<br/>
+Enter cityXYZto field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-city]<br/>
+Enter psotcodeAB59CDto field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-postcode]<br/>
+Enter countryUnited Statesto field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-country]<br/>
+Enter regionArizonato field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> id: input-payment-zone]<br/>
+Clicking on radio button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //div[@id='checkout-checkout']//input[@value='guest']]<br/>
+Enter commentComment About Orderto field [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> name: comment]<br/>
+Clicking on terms and conditions box [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> name: agree]<br/>
+Clicking on radio button [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //div[@id='checkout-checkout']//input[@value='guest']]<br/>
+Getting status of payment warning [[ChromeDriver: chrome on WINDOWS (0486261cfc3c9867dd71d86d79f45483)] -> xpath: //div[@class='alert alert-danger alert-dismissible']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_32_35_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_32_35_GMT_2022.jpg><img src=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_32_35_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.tutorialsninja.testsuite.laptopsandnotebooks.LaptopsAndNotebooksTest@768b970c</td></tr>
+<tr>
+<td title='com.tutorialsninja.testsuite.myaccounts.MyAccountsTest.verifyUserShouldNavigateToLoginPageSuccessfully()'><b>verifyUserShouldNavigateToLoginPageSuccessfully</b><br>Test class: com.tutorialsninja.testsuite.myaccounts.MyAccountsTest<br/>
+<a href="#Output-284456930" onClick='toggleBox("Output-284456930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-284456930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-284456930">
+Clicking on my account [[ChromeDriver: chrome on WINDOWS (4529393b32846eb20e471521977fc578)] -> xpath: //span[contains(text(),'My Account')]]<br/>
+Getting login account text [[ChromeDriver: chrome on WINDOWS (4529393b32846eb20e471521977fc578)] -> xpath: //h2[contains(text(),'Returning Customer')]]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Dec_13_20_32_39_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Dec_13_20_32_39_GMT_2022.jpg><img src=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLoginPageSuccessfullyTue_Dec_13_20_32_39_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tutorialsninja.testsuite.myaccounts.MyAccountsTest@5a4041cc</td></tr>
+<tr>
+<td title='com.tutorialsninja.testsuite.homepage.TopMenuTest.verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully()'><b>verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully</b><br>Test class: com.tutorialsninja.testsuite.homepage.TopMenuTest<br/>
+<a href="#Output-355222677" onClick='toggleBox("Output-355222677", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-355222677" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-355222677">
+Hovering and Clicking on laptops and notebooks [[ChromeDriver: chrome on WINDOWS (d7314ed0c6ac39e2a243932e51438185)] -> link text: Laptops & Notebooks]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfullyTue_Dec_13_20_32_16_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfullyTue_Dec_13_20_32_16_GMT_2022.jpg><img src=C:\Users\krupa\IdeaProjects\com-tutorialsninja-pagefactorymodel/test-output/html/verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfullyTue_Dec_13_20_32_16_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tutorialsninja.testsuite.homepage.TopMenuTest@71623278</td></tr>
+</table><p>
+</body>
+</html>
